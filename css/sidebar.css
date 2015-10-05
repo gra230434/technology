@@ -1,0 +1,201 @@
+.left_sidebar {
+	float: left;
+	margin-top: 50px;
+	width: 20%;
+}
+
+.sidebar {
+	width: 100%;
+	float: right;
+	margin-bottom:15px;
+	padding:10px 0px;
+}
+
+.sidebar h3 {
+	font-size: 20px;
+	font-family: 'LiHei Pro', 'Microsoft JhengHei', sans-serif;
+	margin: 5px 0;
+}
+
+.sidebar ul {
+	margin-top: 25px;
+}
+
+.sidebar ul li {
+	margin-bottom: 10px;
+}
+
+.sidebar ul li a {
+	font-family: 'LiHei Pro', 'Microsoft JhengHei', sans-serif;
+	font-size: 14px;
+	color: #0098CB;
+	text-decoration: none;
+}
+
+.sidebar ul li a:hover {
+        color: #23C2F8;
+	text-decoration: underline;
+}
+
+/*widgets*/
+/** 搜索小工具 **/ 
+.searchform {
+	margin-top: 25px;
+}
+
+input#s {  
+	width: 85%;  
+	height: 22px;  
+	*margin: 10px 0 0 0;  
+	*+margin: 10px 0 0 0;  
+	padding: 1px;  
+	border:1px solid #ccc
+}  
+input#searchsubmit {  
+    	background:url(../image/icon_search.png) no-repeat;
+    	background-size:20px 20px;
+    	width:25px;  
+    	height:25px;  
+   	cursor:pointer;  
+    	text-indent:-10000px; 
+    	font-family: 'Georgia','Times New Roman', serif;
+    	font-style: italic;
+    	font-size: 12px;
+    	border-top-width: 0px;
+    	border-right-width: 0px;
+    	border-bottom-width: 0px;
+    	border-left-width: 0px; 
+}  
+.box {  
+	*height:100%;  
+	*+height:100%;  
+}  
+.screen-reader-text {  
+	display: none;  
+}
+
+/*social*/
+.social {
+    margin-bottom:30px;
+}
+
+.social ul {
+    list-style:none;
+    margin:0;
+    padding:0;
+}
+
+.social ul li {
+    overflow:hidden;
+    margin:0;
+}
+
+.social ul li a{
+    display:inline-block;
+    margin-bottom:15px;
+    height:32px;
+    line-height:32px;
+    color:#222;
+    transition: all 0.1s ease-out;
+}
+
+.social ul li a:hover {
+    margin-left:7px;
+}
+
+
+.social ul li.icon a .mail-icon {
+    width:30px;
+    height:30px;
+    float:left;
+    border-radius: 50%;
+    background-image: url(../image/ico_mail.png);
+    background-size: 20px 20px;
+    background-repeat:no-repeat;
+    margin-right:10px;
+    background-color:#333;
+    background-position:center center;
+}
+
+.social ul li.icon a:hover .mail-icon {
+    background-color:#66C804;
+}
+
+.social ul li.icon a .twitter-icon {
+    width:30px;
+    height:30px;
+    float:left;
+    border-radius: 50%;
+    background-image: url(../image/ico-twitter.png);
+    background-size: 24px 24px;
+    background-repeat:no-repeat;
+    margin-right:10px;
+    background-color:#333;
+    background-position:center center;
+}
+
+.social ul li.icon a:hover .twitter-icon {
+    background-color:#00CCFF;
+}
+
+.social ul li.icon a .facebook-icon {
+    width:30px;
+    height:30px;
+    float:left;
+    border-radius: 50%;
+    background-image: url(../image/ico_facebook.png);
+    background-size: 30px 30px;
+    background-repeat:no-repeat;
+    margin-right:10px;
+    background-color:#333;
+}
+
+.social ul li.icon a:hover .facebook-icon {
+    background-color:#0059B3;
+}
+
+.social ul li.icon a .googleplus-icon {
+    width:30px;
+    height:30px;
+    float:left;
+    border-radius: 50%;
+    background-image: url(../image/ico_google_Plus.png);
+    background-size: 30px 30px;
+    background-repeat:no-repeat;
+    margin-right:10px;
+    background-color:#333;
+    background-position:center bottom;
+}
+
+.social ul li.icon a:hover .googleplus-icon {
+    background-color:#b63324;
+}
+
+.social ul li.icon a .github-icon {
+    width:30px;
+    height:30px;
+    float:left;
+    border-radius: 50%;
+    background-image: url(../image/ico_github.png);
+    background-size: 27px 27px;
+    background-repeat:no-repeat;
+    margin-right:10px;
+    background-color:#333;
+    background-position:center bottom;
+}
+
+.social ul li.icon a:hover .github-icon {
+    background-color:#666;
+}
+
+/*tags*/
+.tagcloud {
+	margin-top: 25px;
+}
+
+.tagcloud a {
+        color: #0098CB;
+	font-family: 'LiHei Pro', 'Microsoft JhengHei', sans-serif;
+	text-decoration: none;
+	margin-bottom: 10px;
+}

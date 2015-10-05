@@ -1,0 +1,21 @@
+.footer {
+	float: left;
+	width: 100%;
+	border-top: 1px solid #222;
+	padding-top: 25px;
+	margin-bottom: 40px;
+}
+
+.footer h2{
+	color: #484848;
+	font-size: 16px;
+	font-family:  'LiHei Pro', 'Microsoft JhengHei', sans-serif;
+	text-align: left;
+	line-height: 65px;
+}
+
+.footer p {
+	color: #484848;
+	font-size: 14px;
+	font-family: 'Raleway', sans-serif;
+}

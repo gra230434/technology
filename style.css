@@ -1,0 +1,32 @@
+/*
+Theme Name:technology
+Theme URI: http://technologyofkevin.com
+Description: 這是Wordpress自我研發版本
+Version:1.0
+Author:Kevin
+Author URI:http://technologyofkevin.com
+*/
+
+/*reset*/
+@import url('css/reset.css');
+/*header*/
+@import url('css/header.css');
+/*sidebar*/
+@import url('css/sidebar.css');
+/*page*/
+@import url('css/content.css');
+/*comments*/
+@import url('css/comments.css');
+/*footer*/
+@import url('css/footer.css');
+
+
+/*full-screen*/
+.full-screen {
+	width: 1350px;
+	margin: 0px auto;
+}
+
+.clear {
+	clear:both;
+}
