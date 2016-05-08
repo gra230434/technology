@@ -1,0 +1,15 @@
+@media all and (min-width: 1200px) and (max-width: 1300px) {
+.full-screen {
+	width: 1080px;
+}
+.left_sidebar {
+	width: 25%;
+}
+.content {
+	width: 75%;
+}
+.page {
+	margin-right: 0px;
+}
+
+}

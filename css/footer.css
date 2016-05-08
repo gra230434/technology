@@ -1,13 +1,13 @@
 .footer {
 	float: left;
 	width: 100%;
-	border-top: 1px solid #222;
+	background-color: #424242;
 	padding-top: 25px;
-	margin-bottom: 40px;
+	padding-bottom: 80px;
 }
 
 .footer h2{
-	color: #484848;
+	color: #FFF;
 	font-size: 16px;
 	font-family:  'LiHei Pro', 'Microsoft JhengHei', sans-serif;
 	text-align: left;
@@ -15,7 +15,7 @@
 }
 
 .footer p {
-	color: #484848;
+	color: #C3C3C3;
 	font-size: 14px;
 	font-family: 'Raleway', sans-serif;
 }

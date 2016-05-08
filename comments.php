@@ -22,18 +22,18 @@
 <?php endif; ?>
 
 	<?php if(get_option('comment_registration') && !$user_ID) : ?>
-		<p>You must be <a href="<?php echo get_option('siteurl'); ?>/wp-login.php?redirect_to=<?php echo urlencode(get_permalink()); ?>">logged in</a> to post a comment.</p>
+		<p>You must be <a href="<?php echo site_url(''); ?>/wp-login.php?redirect_to=<?php echo urlencode(get_permalink()); ?>">logged in</a> to post a comment.</p>
 	<?php else : ?>
-		<form action="<?php echo get_option('siteurl'); ?>/wp-comments-post.php" method="post" id="commentform">
+		<form action="<?php echo site_url(''); ?>/wp-comments-post.php" method="post" id="commentform">
 			<?php if($user_ID) : ?>
-				<p>以<a href="<?php echo get_option('siteurl'); ?>/wp-admin/profile.php"><?php echo $user_identity; ?></a>登入 <a href="<?php echo get_option('siteurl'); ?>/wp-login.php?action=logout" title="Log out of this account">Log out &raquo;</a></p>
+				<p>以<a href="<?php echo site_url(''); ?>/wp-admin/profile.php"><?php echo $user_identity; ?></a>登入 <a href="<?php echo site_url(''); ?>/wp-login.php?action=logout" title="Log out of this account">Log out &raquo;</a></p>
 			<?php else : ?>
 				<h3>來留下你的想法吧!</h3>
 				<p><input type="text" name="author" id="author" placeholder="your name"  value="<?php echo $comment_author; ?>" size="22" tabindex="1" />
 				<label for="author"><small>Name <?php if($req) echo "(必填)"; ?></small></label></p>
-				<p><input type="text" name="email" id="email" placeholder="your Email address"  value="<?php echo $comment_author_email; ?>" size="22" tabindex="2" />
+				<p><input type="email" name="email" id="email" placeholder="your Email address"  value="<?php echo $comment_author_email; ?>" size="22" tabindex="2" />
 				<label for="email"><small>Mail</small></label></p>
-				<p><input type="text" name="url" id="url" value="<?php echo $comment_author_url; ?>" size="22" tabindex="3" />
+				<p><input type="url" name="url" id="url" value="<?php echo $comment_author_url; ?>" size="22" tabindex="3" />
 				<label for="url"><small>個人網站</small></label></p>
 			<?php endif; ?>
 			<p><textarea name="comment" id="comment" cols="100%" rows="10" tabindex="4"></textarea></p>

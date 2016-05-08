@@ -23,11 +23,11 @@
 
 .sidebar ul li {
 	margin-bottom: 10px;
+	font-family: 'LiHei Pro', 'Microsoft JhengHei', sans-serif;
+        font-size: 14px;
 }
 
 .sidebar ul li a {
-	font-family: 'LiHei Pro', 'Microsoft JhengHei', sans-serif;
-	font-size: 14px;
 	color: #0098CB;
 	text-decoration: none;
 }
@@ -35,6 +35,11 @@
 .sidebar ul li a:hover {
         color: #23C2F8;
 	text-decoration: underline;
+}
+
+.sidebar ul li span {
+	display: table !important;
+	padding-bottom: 5px;
 }
 
 /*widgets*/

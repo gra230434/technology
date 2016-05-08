@@ -3,16 +3,15 @@
 }
 
 .content {
-	width: 79%;
+	width: 80%;
 	margin: 0px auto; 
 	float: right;
-	border-left: 1px solid #222;
 }
 
 .page {
-	width: 90%;
+	width: 96%;
 	float: left;
-	margin: 50px 5% 0px;
+	margin: 35px 2% 0px;
 	padding: 0px;
 }
 
@@ -26,7 +25,7 @@
 	width: 100%;
 	height: 50px;
 	padding: 0px 40px;
-	margin-bottom: 30px;
+	margin-bottom: 5px;
 }
 
 .page .article .article-icon {
@@ -44,6 +43,7 @@
 	position: relative;
 	left: 80px;
 	width: 80%;
+	line-height: 50px;
 	font-size: 40px;
 	margin: 0px 0px 0px 0px;
 	padding-top: 10px;
@@ -63,17 +63,62 @@
 .article-page {
 	margin: 0px 40px;
 	padding-top: 25px;
+	padding-left: 20px;
+}
+
+.article h1{
+	font-family: 'Microsoft JhengHei', sans-serif;
+	font-size: 22px;
+	padding: 35px 0px 0px;
+        line-height: 30px;
+	font-weight: bold;
+}
+
+.article h2{
+        font-family: 'Microsoft JhengHei', sans-serif;
+        font-size: 18px;
+        padding: 15px 0px 0px;
+        line-height: 26px;
 }
 
 .article p{
 	font-size: 16px;
 	font-family: 'Microsoft JhengHei', sans-serif;
-	padding: 0px 20px 5px;
+	padding: 15px 0px 0px;
+	line-height: 26px;
 }
 
-iframe {
-	width: 700px;
-	height: 395px;
+.article p a{
+        text-decoration: none;
+	color: #585858;
+	border-bottom: 1px solid #848484;
+}
+
+.article p a:hover{
+        color: #848484;
+	border-bottom: 1px solid #fff;
+}
+
+.article ul{
+        list-style-type: circle;
+	padding: 10px 0px 0px 20px;
+}
+
+.article li{
+	font-size: 16px;
+        font-family: 'Microsoft JhengHei', sans-serif;
+	line-height: 26px;
+}
+
+.article li a{
+        text-decoration: none;
+        color: #585858;
+        border-bottom: 1px solid #848484;
+}
+
+.article li a:hover{
+        color: #848484;
+        border-bottom: 1px solid #fff;
 }
 
 .meta{
@@ -129,16 +174,21 @@ iframe {
 }
 
 .more-link {
-	font-size: 20px;
+	line-height: 60px;
 	font-family: 'LiHei Pro', 'Microsoft JhengHei', sans-serif;	
+	text-decoration: none;
 }
 
 a.more-link {
-	color: #000;
+	color: #2E9AFE;
+	font-size: 20px;
+	transition-property: color, font-size;
+	transition-duration: 1s, 2s;
 }
 
 a:hover.more-link {
-	color: #888;
+	color: #81DAF5;
+	font-size: 28px;
 }
 
 /*pages*/
@@ -176,3 +226,31 @@ a:hover.more-link {
 	padding: 4px 10px;
 }
 
+/*強制圖片修正*/
+p img{
+	max-width: 750px;
+	width: expression(this.width > 750 ? "750px" : true);
+	height: auto;
+}
+
+/*404 not found*/
+.notfount-page {
+	margin: 40px 40px;
+}
+
+.notfount-page h2{
+	font-family: Calibri, Candara, Segoe, sans-serif;
+	font-size: 35px;
+	
+}
+
+.notfount-page p{
+	font-size: 16px;
+        font-family: 'Microsoft JhengHei', sans-serif;
+}
+
+.notfount-page input{
+	margin-top: 20px;
+	padding: 5px 10px;
+	font-size: 20px;
+}

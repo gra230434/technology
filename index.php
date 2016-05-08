@@ -1,4 +1,7 @@
 <?php get_header(); ?>
+
+<a href="#" title="回到首頁"><div class="fixed"></div></a>
+
 <div class="main">
 <div class="full-screen">
 <?php get_sidebar(); ?>

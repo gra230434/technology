@@ -1,30 +1,33 @@
 .header {
-	width: 75%;
-	margin: 0px auto;
+	margin: 30px auto 20px;
 	
+}
+
+.header h1 {
+	width: 100%;
+        float:left;
+        font-family: 'LiHei Pro','Microsoft JhengHei', sans-serif;
+	padding: 20px 0px 10px 0px;
+	color: #1C97CA;	
+	font-size: 56px;
 }
 
 .header h1 a{
 	width: 100%;
-	float:left;
-	font-family: 'Raleway', sans-serif;
+        float:left;
+        font-family: 'LiHei Pro','Microsoft JhengHei', sans-serif;
+        color: #1C97CA;
+        font-size: 56px;
 	text-decoration: none;
-	color: #1C97CA;
-	font-size: 56px;
-	font-weight: bolder;
-	padding: 40px 0px 10px 0px;
-	display: block;
 	letter-spacing: 4px;
-	text-transform: uppercase;
 }
 
-.header p{
+.header p {
 	width: 100%;
 	float: left;
         font-family: 'LiHei Pro','Microsoft JhengHei', sans-serif;
         color: #000;
-        font-size: 16px;
-        padding: 10px 0px 40px 0px;
-        display: block;
+        font-size: 20px;
+        padding: 10px 0px 10px 0px;
         text-transform: uppercase;
 }

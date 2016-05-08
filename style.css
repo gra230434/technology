@@ -20,13 +20,61 @@ Author URI:http://technologyofkevin.com
 /*footer*/
 @import url('css/footer.css');
 
-
 /*full-screen*/
 .full-screen {
-	width: 1350px;
+	width: 1280px;
 	margin: 0px auto;
 }
 
 .clear {
 	clear:both;
+}
+
+/*fixed*/
+.fixed{
+	position: fixed;
+	bottom: 50px;
+	right: 160px;
+	width: 50px;
+	height: 50px;
+	border: 3px solid #23c2f8;
+	border-radius: 15px;
+	background-color: #fff;
+	background-image: url("image/gototop1.png");
+	background-size: 40px 40px;
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+/*media*/
+@media all and (min-width: 1300px) and (max-width: 1500px) {
+.fixed{
+	right: 30px;
+}
+}
+@media all and (min-width: 1200px) and (max-width: 1300px) {
+p img{
+        max-width: 650px;
+        width: expression(this.width > 650 ? "650px" : true);
+        height: auto;
+}
+
+.fixed{
+	bottom: 30px;
+        right: 30px;
+}
+
+.full-screen {
+        width: 1080px;
+}
+.left_sidebar {
+        width: 25%;
+}
+.content {
+        width: 75%;
+}
+.page {
+	width: 780px;
+	margin-left: 30px;
+	margin-right: 0px;
+}
 }
