@@ -43,7 +43,7 @@ function wp_pagenavi() {
 /*
  * 改變 comment note above comment author
  *
- * @since technology 1.1
+ * @since technology 1.2
 */
 function tech_move_comment_field_to_bottom( $fields ) {
   $comment_field = $fields['comment'];
