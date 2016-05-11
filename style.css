@@ -528,7 +528,7 @@ p img{
 	width: 100%;
 	float: right;
 	border-bottom: 1px dotted #ccc;
-	padding-bottom: 15px;
+	padding: 15px 0;
 }
 .depth-2 {
 	width: 90%;
@@ -547,7 +547,6 @@ p img{
 .comment-author {
 	font-size: 18px;
 	height: 42px;
-	margin-top: 15px;
 }
 .comment-meta {
   float: right;
